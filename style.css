@@ -34,7 +34,7 @@ body {
   opacity: 0;
   transition: opacity 1s;
   position: absolute;
-  bottom: 20rem;
+  bottom: 20%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -113,7 +113,7 @@ body {
   cursor: pointer;
   margin-top: 2rem;
   position: absolute;
-  bottom: 11rem;
+  bottom: 11%;
   left: 50%;
   transform: translateX(-50%);
 }
