@@ -106,6 +106,14 @@ body {
   color: white;
   background-color: orangered;
   cursor: pointer;
+  margin-top: 2rem;
+  position: absolute;
+  bottom: 11rem;
+}
+
+.btn-country:disabled {
+  cursor: auto;
+  opacity: 0;
 }
 
 .images {
