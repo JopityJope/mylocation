@@ -41,6 +41,7 @@ const whereAmI = async function () {
     //Reverse goecoding
     const resGeo = await fetch(
       `https://geocode.xyz/${lat},${lng}?geoit=json&auth=106375503034711e15906384x23577`
+      
     );
     if (!resGeo.ok) throw new Error('Problem getting location data');
 
@@ -48,7 +49,8 @@ const whereAmI = async function () {
 
     //Country data
     const res = await fetch(
-      `https://restcountries.com/v2/name/${dataGeo.country}`
+      `https://countries-api-836d.onrender.com/countries/name/${dataGeo.country}`
+     
     );
     if (!res.ok) throw new Error('Problem getting country');
 
